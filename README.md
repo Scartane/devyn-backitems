@@ -19,6 +19,8 @@ Then, in the same file, locate the `function useWeapon(weapon, inventory)` and a
 TriggerEvent('core_inventory:custom:handleWeapon', currentWeapon, currentWeaponData, currentWeaponInventory)
 ```
 
+This script should be start **after** core_inventory
+
 Now follow the basic installation below :
 
 FiveM Lua Script for displaying items on the players back.
